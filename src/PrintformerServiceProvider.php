@@ -14,6 +14,13 @@ use Rissc\Printformer\Printformer;
 
 class PrintformerServiceProvider extends ServiceProvider
 {
+  public function register()
+  {
+    $this->mergeConfigFrom(
+      __DIR__ . '/../config/printformer.php', 'printformer'
+    );
+  }
+
   public function boot(): void
   {
     $this->publishes([
