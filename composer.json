@@ -1,0 +1,23 @@
+{
+  "name": "risscsolutions/printformer-laravel",
+  "description": "A Laravel Package to wrap the printformer SDK",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": "^8.0",
+    "risscsolutions/printformer-php-sdk": "dev-master",
+    "illuminate/support": "^9.8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rissc\\Printformer\\Laravel\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Rissc\\Printformer\\Laravel\\PrintformerServiceProvider"
+      ]
+    }
+  }
+}
