@@ -1,6 +1,11 @@
 {
   "name": "risscsolutions/printformer-laravel",
   "description": "A Laravel Package to wrap the printformer SDK",
+  "keywords": [
+    "printformer",
+    "web2print",
+    "laravel"
+  ],
   "license": "MIT",
   "type": "library",
   "require": {
