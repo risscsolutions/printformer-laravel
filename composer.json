@@ -10,7 +10,7 @@
   "type": "library",
   "require": {
     "php": "^8.0",
-    "risscsolutions/printformer-php-sdk": "dev-master",
+    "risscsolutions/printformer-php-sdk": "^0.1",
     "illuminate/support": "^9.8.1"
   },
   "autoload": {

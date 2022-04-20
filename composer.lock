@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6109bf92abed15e168b39e558045e292",
+    "content-hash": "f523333547bbf871436fb381e24c7d97",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -422,7 +422,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v9.8.1",
+            "version": "v9.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -477,7 +477,7 @@
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v9.8.1",
+            "version": "v9.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -523,7 +523,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v9.8.1",
+            "version": "v9.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -571,7 +571,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v9.8.1",
+            "version": "v9.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -619,7 +619,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v9.8.1",
+            "version": "v9.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -665,16 +665,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v9.8.1",
+            "version": "v9.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "4ff8e72e06ece4b0f1004580e451efbd1ec3426d"
+                "reference": "98116879f92b8a2ce7c58ed6ffb199851fbc1311"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/4ff8e72e06ece4b0f1004580e451efbd1ec3426d",
-                "reference": "4ff8e72e06ece4b0f1004580e451efbd1ec3426d",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/98116879f92b8a2ce7c58ed6ffb199851fbc1311",
+                "reference": "98116879f92b8a2ce7c58ed6ffb199851fbc1311",
                 "shasum": ""
             },
             "require": {
@@ -730,27 +730,28 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-04-12T13:50:24+00:00"
+            "time": "2022-04-18T20:20:48+00:00"
         },
         {
             "name": "lcobucci/clock",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lcobucci/clock.git",
-                "reference": "903513d28e85376a33385ebc601afd2ee69e5653"
+                "reference": "fb533e093fd61321bfcbac08b131ce805fe183d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lcobucci/clock/zipball/903513d28e85376a33385ebc601afd2ee69e5653",
-                "reference": "903513d28e85376a33385ebc601afd2ee69e5653",
+                "url": "https://api.github.com/repos/lcobucci/clock/zipball/fb533e093fd61321bfcbac08b131ce805fe183d3",
+                "reference": "fb533e093fd61321bfcbac08b131ce805fe183d3",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.0"
+                "php": "^8.0",
+                "stella-maris/clock": "^0.1.4"
             },
             "require-dev": {
-                "infection/infection": "^0.25",
+                "infection/infection": "^0.26",
                 "lcobucci/coding-standard": "^8.0",
                 "phpstan/extension-installer": "^1.1",
                 "phpstan/phpstan": "^0.12",
@@ -778,7 +779,7 @@
             "description": "Yet another clock abstraction",
             "support": {
                 "issues": "https://github.com/lcobucci/clock/issues",
-                "source": "https://github.com/lcobucci/clock/tree/2.1.0"
+                "source": "https://github.com/lcobucci/clock/tree/2.2.0"
             },
             "funding": [
                 {
@@ -790,7 +791,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-10-31T21:32:07+00:00"
+            "time": "2022-04-19T19:34:17+00:00"
         },
         {
             "name": "lcobucci/jwt",
@@ -1272,16 +1273,16 @@
         },
         {
             "name": "risscsolutions/printformer-php-sdk",
-            "version": "dev-master",
+            "version": "v0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/risscsolutions/printformer-php-sdk.git",
-                "reference": "bf752e571b757a9445f6a79082f55f52b3e83f1d"
+                "reference": "589b7cb3d67faee6ec7f7a44f346b2ff68f859c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/risscsolutions/printformer-php-sdk/zipball/bf752e571b757a9445f6a79082f55f52b3e83f1d",
-                "reference": "bf752e571b757a9445f6a79082f55f52b3e83f1d",
+                "url": "https://api.github.com/repos/risscsolutions/printformer-php-sdk/zipball/589b7cb3d67faee6ec7f7a44f346b2ff68f859c4",
+                "reference": "589b7cb3d67faee6ec7f7a44f346b2ff68f859c4",
                 "shasum": ""
             },
             "require": {
@@ -1297,7 +1298,6 @@
                 "nyholm/nsa": "^1.3",
                 "phpunit/phpunit": "^9.5"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1315,11 +1315,62 @@
                 }
             ],
             "description": "SDK for the printformer API",
+            "keywords": [
+                "printformer",
+                "web2print"
+            ],
             "support": {
                 "issues": "https://github.com/risscsolutions/printformer-php-sdk/issues",
-                "source": "https://github.com/risscsolutions/printformer-php-sdk/tree/master"
+                "source": "https://github.com/risscsolutions/printformer-php-sdk/tree/v0.1"
             },
-            "time": "2022-04-16T15:14:03+00:00"
+            "time": "2022-04-18T19:14:09+00:00"
+        },
+        {
+            "name": "stella-maris/clock",
+            "version": "0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/stella-maris/clock.git",
+                "reference": "8a0a967896df4c63417385dc69328a0aec84d9cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/stella-maris%2Fclock/repository/archive.zip?sha=8a0a967896df4c63417385dc69328a0aec84d9cf",
+                "reference": "8a0a967896df4c63417385dc69328a0aec84d9cf",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0|^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "StellaMaris\\Clock\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Heigl",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "A pre-release of the proposed PSR-20 Clock-Interface",
+            "homepage": "https://gitlab.com/stella-maris/clock",
+            "keywords": [
+                "clock",
+                "datetime",
+                "point in time",
+                "psr20"
+            ],
+            "support": {
+                "issues": "https://gitlab.com/stella-maris/clock/-/issues",
+                "source": "https://gitlab.com/stella-maris/clock/-/tree/0.1.4"
+            },
+            "time": "2022-04-17T14:12:26+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1877,9 +1928,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "risscsolutions/printformer-php-sdk": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
